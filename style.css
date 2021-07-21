@@ -1,0 +1,96 @@
+body{
+    background-color: #f2f2f2;
+    }
+input[type=text], select, textarea{
+    width:100; /*full width*/
+    padding:12px;/*some paddong*/
+    border:1px solid #ccc; /*gray broder*/
+    border-radius:4px;/*round boder*/
+    box-sizing:boder-box;
+    margin-top:6px;
+    margin-bottom:16px;
+    resize:vertical
+
+}
+input[type=data], select,textarea{
+    width:100%;
+    padding:12px;
+    border:1px solid #ccc;
+    border-radius:4px;
+    box-sizing:border-box;
+    margin-top:6px;
+    margin-bottom:16px;
+    resize:vertical;
+
+}
+input[type=time], select,textarea{
+    width:100%;
+    padding:12px;
+    border:1px solid #ccc;
+    border-radius:4px;
+    box-sizing:border-box;
+    margin-top:6px;
+    margin-bottom:16px;
+    resize:vertical;
+
+}
+input[type=file], select,textarea{
+    width:100%;
+    padding:12px;
+    border:1px solid #ccc;
+    border-radius:4px;
+    box-sizing:border-box;
+    margin-top:6px;
+    margin-bottom:16px;
+    resize:vertical;
+
+}
+
+input[type=submit]{
+    background-color:#4CAF50;
+    color:white;
+    padding:12px 20px;
+    border:none;
+    border-radius:4px;
+    cursor:pointer;
+
+}
+input[type=submit]:hover{
+    background-color:#45a049;
+
+}
+.container{
+    border-radius:5px;
+    background-color:#f2f2f2;
+    padding:20px;
+
+}
+#records{
+    font-family:"Trebuchet MS",Arial,Helvetica,sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+
+}
+#records td, #records th{
+    border: 1px solid #ddd;
+    width: 8px;
+}
+#records tr:nth-child(even){background-color: #f2f2f2;}
+#records tr:hover {background-color: #ddd;}
+#records th{
+    padding-top:12px;
+    padding-bottom:12px;
+    text-align:left;
+    background-color: #ce4012;
+    color:white;
+
+}
+.buttonupdate{
+    background-color: #4caf82;
+    color: white;
+    padding: 12px 20px;
+    border:none;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
